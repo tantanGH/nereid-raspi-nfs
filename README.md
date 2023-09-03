@@ -50,21 +50,17 @@ mintから Raspberry Pi NFSドライブを操作している様子。デフォ�
 
 ---
 
-## ソフトウェアの準備 (Raspberry Pi)
+## ソフトウェアの準備と構成 (Raspberry Pi)
 
-* 32bit Lite の最新版
+### 32bit Lite の最新版を入れる
 
-* NFS server
+### NFS server の導入
 
         sudo apt install nfs-kernel-server
 
----
-
-## ソフトウェアの構成 (Raspberry Pi)
-
 ### /etc/export
 
-今回は `/export/nfs' をNFSで見せる。
+今回は `/export/nfs` をNFSで見せる。
 
         sudo mkdir -p /export/nfs
         sudo chmod -R 777 /export
