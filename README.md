@@ -11,13 +11,6 @@
 * Buffalo 無線LANコンバータ WLI-UTX-AG300/C [https://www.amazon.co.jp/dp/B008MRUINC](https://www.amazon.co.jp/dp/B008MRUINC)
 * Raspberry Pi 3A+ (FDX68シールド付)
 
-<img src='images/nfs1.png'/>
-
-
-mintから Raspberry Pi NFSドライブを操作している様子。デフォルトだとNFSドライブはY:になります。
-
-<img src='images/nfs2.jpeg'/>
-
 ---
 
 ## ハードウェアの準備
@@ -174,3 +167,11 @@ Nereidの推奨設定に従うが、ether_ne.sys の代わりに etherL12.sys �
 ### X680x0 -> Raspberry Pi nfs
 
         dir y:
+
+
+<img src='images/nfs1.png'/>
+
+
+mintから Raspberry Pi NFSドライブを操作している様子。デフォルトだとNFSドライブはY:になります。
+
+<img src='images/nfs2.jpeg'/>
