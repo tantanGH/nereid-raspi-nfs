@@ -13,6 +13,9 @@
 
 <img src='images/nfs1.png'/>
 
+
+mintから Raspberry Pi NFSドライブを操作している様子。デフォルトだとNFSドライブはY:になります。
+
 <img src='images/nfs2.jpeg'/>
 
 ---
